@@ -1,9 +1,9 @@
 //include (require) dependencies
 var React = require('react');
 var ReactDOM = require('react-dom');
-var Greeter = require('./components/Greeter');
+var Greeter = require('Greeter');
 
-var firstName = 'João';
+var firstName = 'Jen';
 
 ReactDOM.render(
   <Greeter name={firstName}/>,
